@@ -18,25 +18,10 @@ namespace testWebApi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Connection Test1", "ConnectionTest2" };
         }
-
-        //// GET api/<ValuesController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-        //// POST api/<ValuesController>
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-
-        //    //return "ok";
-        //}
-
         #region Bank IBAN
+
         // POST api/<ValuesController>
         [HttpPost]
         public object CheckIBAN(modelBank value)
@@ -48,12 +33,9 @@ namespace testWebApi.Controllers
             objRespose.Id = value.Id;
             objRespose.IBAN = value.IBAN;
             objRespose.Note = value.Note;
-
             string IBANNumber = objRespose.IBAN;
 
-
             //here we check IBAN is valid or not 
-            
             //
             //test banks 
 
@@ -61,9 +43,6 @@ namespace testWebApi.Controllers
             //string Meezan = "PK10MEZN0001850100447086";
             //string bankIslami = "PK22BKIP0106800331460231";
             //string UBL = "PK83UNIL0109000273583624";
-
-
-
             if (ModelState.IsValid)
             {
                 result = Helper.IBANChecker.ValidateBankAccount(IBANNumber);
@@ -77,34 +56,15 @@ namespace testWebApi.Controllers
                 {
                     return GenericMethods.CreateResponce(ObjectResponce.Rejected, objRespose, null, null, "Invalid IBAN");
                 }
-
-               
             }
-
             else
             {
                 return GenericMethods.CreateResponce(ObjectResponce.Rejected);
-            }
-
-           
+            }    
         }
-
-
-
 
         #endregion
 
 
-        //// PUT api/<ValuesController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<ValuesController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

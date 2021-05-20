@@ -28,9 +28,9 @@ namespace testWebApi
             {
                 options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Place Info Service API",
+                    Title = "P.F.C IBAN Validation Service API",
                     Version = "v2",
-                    Description = "Sample service for Learner",
+                    Description = "Sample service for Demo",
                 });
             });
         }
