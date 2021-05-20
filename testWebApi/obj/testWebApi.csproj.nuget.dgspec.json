@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hasan\\source\\repos\\testWebApi\\testWebApi.csproj": {}
+    "D:\\LocalGit\\testProject\\testWebApi\\testWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hasan\\source\\repos\\testWebApi\\testWebApi.csproj": {
+    "D:\\LocalGit\\testProject\\testWebApi\\testWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hasan\\source\\repos\\testWebApi\\testWebApi.csproj",
+        "projectUniqueName": "D:\\LocalGit\\testProject\\testWebApi\\testWebApi.csproj",
         "projectName": "testWebApi",
-        "projectPath": "C:\\Users\\Hasan\\source\\repos\\testWebApi\\testWebApi.csproj",
-        "packagesPath": "C:\\Users\\Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hasan\\source\\repos\\testWebApi\\obj\\",
+        "projectPath": "D:\\LocalGit\\testProject\\testWebApi\\testWebApi.csproj",
+        "packagesPath": "C:\\Users\\903482\\.nuget\\packages\\",
+        "outputPath": "D:\\LocalGit\\testProject\\testWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\903482\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packagesource": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +38,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

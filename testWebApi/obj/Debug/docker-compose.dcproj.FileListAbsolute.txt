@@ -1,0 +1,15 @@
+D:\LocalGit\testProject\testWebApi\bin\Debug\testWebApi.Views.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\testWebApi.Views.pdb
+D:\LocalGit\testProject\testWebApi\bin\Debug\appsettings.Development.json
+D:\LocalGit\testProject\testWebApi\bin\Debug\appsettings.json
+D:\LocalGit\testProject\testWebApi\bin\Debug\Properties\launchSettings.json
+D:\LocalGit\testProject\testWebApi\bin\Debug\testWebApi.exe
+D:\LocalGit\testProject\testWebApi\bin\Debug\testWebApi.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\Microsoft.OpenApi.dll
+D:\LocalGit\testProject\testWebApi\bin\Debug\testWebApi.pdb
+D:\LocalGit\testProject\testWebApi\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\LocalGit\testProject\testWebApi\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\LocalGit\testProject\testWebApi\obj\Debug\docker-compose.dcproj.CopyComplete
